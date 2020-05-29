@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EAE636932480BEAA007660E9 /* HCPSwiftCode.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE636912480BEAA007660E9 /* HCPSwiftCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE6369C2480BEFC007660E9 /* HCPTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6369B2480BEFC007660E9 /* HCPTestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EAE6368E2480BEAA007660E9 /* HCPSwiftCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCPSwiftCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE636912480BEAA007660E9 /* HCPSwiftCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCPSwiftCode.h; sourceTree = "<group>"; };
 		EAE636922480BEAA007660E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE6369B2480BEFC007660E9 /* HCPTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPTestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,27 @@
 		EAE636902480BEAA007660E9 /* HCPSwiftCode */ = {
 			isa = PBXGroup;
 			children = (
+				EAE636992480BEDA007660E9 /* Code */,
 				EAE636912480BEAA007660E9 /* HCPSwiftCode.h */,
 				EAE636922480BEAA007660E9 /* Info.plist */,
 			);
 			path = HCPSwiftCode;
+			sourceTree = "<group>";
+		};
+		EAE636992480BEDA007660E9 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6369A2480BEE5007660E9 /* Test */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		EAE6369A2480BEE5007660E9 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6369B2480BEFC007660E9 /* HCPTestData.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +114,7 @@
 				TargetAttributes = {
 					EAE6368D2480BEAA007660E9 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -131,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE6369C2480BEFC007660E9 /* HCPTestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +281,7 @@
 		EAE636972480BEAA007660E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DR5K5LQ4UE;
@@ -276,6 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hcp.swift-code.HCPSwiftCode";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +307,7 @@
 		EAE636982480BEAA007660E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DR5K5LQ4UE;
