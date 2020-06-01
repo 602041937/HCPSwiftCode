@@ -14,7 +14,6 @@
 /* Begin PBXFileReference section */
 		EAE6368E2480BEAA007660E9 /* HCPSwiftCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCPSwiftCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE636912480BEAA007660E9 /* HCPSwiftCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCPSwiftCode.h; sourceTree = "<group>"; };
-		EAE636922480BEAA007660E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE6369B2480BEFC007660E9 /* HCPTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPTestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +49,6 @@
 			children = (
 				EAE636992480BEDA007660E9 /* Code */,
 				EAE636912480BEAA007660E9 /* HCPSwiftCode.h */,
-				EAE636922480BEAA007660E9 /* Info.plist */,
 			);
 			path = HCPSwiftCode;
 			sourceTree = "<group>";

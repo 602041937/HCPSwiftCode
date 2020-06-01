@@ -8,9 +8,9 @@
 
 import UIKit
 
-class HCPTestData: NSObject {
+public class HCPTestData: NSObject {
 
-    func test() {
+    public func test() {
         print("test")
     }
 }
